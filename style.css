@@ -149,7 +149,7 @@ dl, dt, dd, ol, ul, li {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
@@ -9691,7 +9691,8 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-content p {
 	margin-top: 0.5rem;
 	margin-bottom: 0px;
-	color: #999;
+	/* color: #000; */
+	font-weight: 300 !important;
 }
 
 .fbox-content .before-heading {
@@ -16965,3 +16966,20 @@ label.checkbox { padding-left: 20px; }
 	animation-name: fadeOutUpSmall;
 }
 
+.shadow-custom {
+	box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),
+			   0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+	border-radius: 5px;
+}
+
+
+/* ----------------------------------------------------------------
+	Partners-logo Styles
+-----------------------------------------------------------------*/
+
+.container.topmargin-lg.clearfix#partners-logo {
+	padding-top: 0 !important;
+	margin-top: 0 !important;
+
+}
